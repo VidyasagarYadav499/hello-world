@@ -11,3 +11,5 @@ And this is the **first repository** that i have created, to embark on a journey
 | `git commit -m "message"`              | To permanently record the changes made to the files in the staging area                |
 | `git status`                                  |  Checks the status of the repo         |
 | `git push origin main`                        | Pushes changes to remote repo               |
+|`git remote -v`||
+|`git config --global credential.helper cache`||

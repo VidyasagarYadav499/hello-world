@@ -92,6 +92,7 @@ git merge origin/main         # Merges the fetched changes into the main branch
 | **Commit Commands** |  |
 | `git commit -m "message"` | Commits changes with a message. Example: `git commit -m "Add login feature"` |
 | `git commit --amend` | Adds changes to the latest commit and allows editing the commit message. |
+| `git commit --amend --no-edit` | Adds changes to the latest commit without changing the commit message. |
 | `git commit -a -m "message"` | Commits all tracked files with a message, skipping the staging area. Example: `git commit -a -m "Fix typos"` |
 | **Status Commands** |  |
 | `git status` | Displays the status of the working directory and staging area. |
